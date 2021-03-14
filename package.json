@@ -1,0 +1,23 @@
+{
+  "name": "appsync-sst-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.91.0",
+    "@types/aws-lambda": "^8.10.70"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-appsync": "1.91.0",
+    "@aws-cdk/core": "1.91.0",
+    "@serverless-stack/cli": "0.9.17",
+    "@serverless-stack/resources": "0.9.17",
+    "aws-sdk": "^2.863.0"
+  }
+}
